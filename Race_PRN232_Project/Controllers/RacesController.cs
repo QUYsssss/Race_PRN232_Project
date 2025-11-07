@@ -8,7 +8,6 @@ namespace Race_PRN232_Project.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class RacesController : ControllerBase
     {
         private readonly IRaceService _raceService;

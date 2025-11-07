@@ -11,7 +11,7 @@ namespace Race_PRN232_Project.Helpers
             CreateMap<User, UserDTO>()
                 .ForMember(dest => dest.FullName, opt => opt.MapFrom(src => src.FirstName + " " + src.LastName));
             CreateMap<Race, RaceDTO>();
-            CreateMap<SupportTeam, SupportTeamDTO>();
+          
         }
     }
 }

@@ -1,11 +1,14 @@
 ﻿using Race_PRN232_Project.DTOs;
+using Race_PRN232_Project.DTOs.SupportTeamDTO;
 
 namespace Race_PRN232_Project.Services.Interfaces
 {
     public interface ISupportTeamService
     {
         IEnumerable<SupportTeamDTO> GetAll();
-        bool AddMember(int teamId, int userId, string role);
-        bool RemoveMember(int teamId, int userId);
+        SupportTeamDTO? GetById(int id);
+        SupportTeamDTO Create(CreateSupportTeamDTO dto);
+        bool Update(int id, UpdateSupportTeamDTO dto);
+        bool Delete(int id);
     }
 }

@@ -18,7 +18,11 @@ namespace Race_PRN232_Project.Services.Implementations
 
         public IEnumerable<RaceDTO> GetAll()
         {
-            return _mapper.Map<IEnumerable<RaceDTO>>(_context.Races.ToList());
+            var races = _context.Races
+                  .Where(r => !r.IsDeleted)
+                  .ToList();
+
+            return _mapper.Map<IEnumerable<RaceDTO>>(races);
         }
 
         public RaceDTO? GetById(int id)
@@ -47,9 +51,10 @@ namespace Race_PRN232_Project.Services.Implementations
 
         public bool Delete(int id)
         {
-            var entity = _context.Races.Find(id);
-            if (entity == null) return false;
-            _context.Races.Remove(entity);
+            var race = _context.Races.Find(id);
+            if (race == null) return false;
+
+            race.IsDeleted = true;
             _context.SaveChanges();
             return true;
         }

@@ -19,7 +19,7 @@ namespace Race_PRN232_Project.Models
         public DateTime? EndDate { get; set; }
         public int? LocationId { get; set; }
         public string? Description { get; set; }
-
+        public bool IsDeleted { get; set; } = false;
         public virtual Location? Location { get; set; }
         public virtual ICollection<Image> Images { get; set; }
         public virtual ICollection<RaceDistance> RaceDistances { get; set; }

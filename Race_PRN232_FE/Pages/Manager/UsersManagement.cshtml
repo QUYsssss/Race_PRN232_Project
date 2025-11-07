@@ -1,0 +1,121 @@
+﻿@page
+@model dynamic
+@{
+    ViewData["Title"] = "Quản lý người dùng";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<style>
+    body {
+        background: #f9fbfd;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin-top: 50px;
+    }
+
+    h2 {
+        color: #364fc7;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    .btn-danger {
+        background: #f03e3e;
+        border: none;
+    }
+
+    .table {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+</style>
+
+<div class="container">
+    <h2>👤 Quản lý người dùng</h2>
+    <table class="table table-hover text-center align-middle">
+        <thead class="table-primary">
+            <tr>
+                <th>ID</th>
+                <th>Họ tên</th>
+                <th>Email</th>
+                <th>Số điện thoại</th>
+                <th>Vai trò</th>
+                <th>Ngày tạo</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody id="userList">
+            <tr><td colspan="7">⏳ Đang tải dữ liệu...</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    const token = localStorage.getItem("token");
+    if (!token) window.location.href = "/Auth/Login";
+
+    const apiUrl = "http://localhost:5288/api/admin/UserManagement";
+
+    async function loadUsers() {
+        const tbody = document.getElementById("userList");
+        try {
+            const res = await fetch(apiUrl, {
+                headers: { "Authorization": `Bearer ${token}` }
+            });
+            if (!res.ok) throw new Error("Không thể tải danh sách người dùng!");
+            const data = await res.json();
+
+            if (data.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="7">Không có người dùng nào.</td></tr>`;
+                return;
+            }
+
+            tbody.innerHTML = data.map(u => `
+                <tr>
+                    <td>${u.userId}</td>
+                    <td>${u.fullName}</td>
+                    <td>${u.email}</td>
+                    <td>${u.phone ?? "—"}</td>
+                    <td>${u.roleName}</td>
+                    <td>${new Date(u.createdAt).toLocaleDateString()}</td>
+                    <td>
+                        <button class="btn btn-sm btn-danger" onclick="deleteUser(${u.userId}, '${u.fullName}')">🗑️ Xóa</button>
+                    </td>
+                </tr>
+            `).join("");
+        } catch (err) {
+            tbody.innerHTML = `<tr><td colspan="7" class="text-danger">${err.message}</td></tr>`;
+        }
+    }
+
+    async function deleteUser(id, name) {
+        Swal.fire({
+            title: `Xóa người dùng "${name}"?`,
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: "Xóa",
+            cancelButtonText: "Hủy",
+            confirmButtonColor: "#f03e3e"
+        }).then(async result => {
+            if (!result.isConfirmed) return;
+            const res = await fetch(`${apiUrl}/${id}`, {
+                method: "DELETE",
+                headers: { "Authorization": `Bearer ${token}` }
+            });
+            if (res.ok) {
+                Swal.fire("Đã xóa!", "", "success");
+                loadUsers();
+            } else {
+                Swal.fire("Lỗi!", "Không thể xóa người dùng này.", "error");
+            }
+        });
+    }
+
+    loadUsers();
+</script>

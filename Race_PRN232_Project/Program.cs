@@ -81,6 +81,8 @@ builder.Services.AddAuthentication(options =>
     {
         ValidateIssuer = true,
         ValidateAudience = true,
+        ValidateLifetime = true, // ? Ki?m tra h?n token
+        ClockSkew = TimeSpan.Zero, // ? Không cho phép l?ch th?i gian
         ValidIssuer = builder.Configuration["JWT:Issuer"],
         ValidAudience = builder.Configuration["JWT:Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(
@@ -88,6 +90,7 @@ builder.Services.AddAuthentication(options =>
         )
     };
 });
+
 
 // =====================================
 // 5?? Enable CORS
@@ -109,6 +112,9 @@ builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IRaceService, RaceService>();
+builder.Services.AddScoped<IRoleService, RoleService>();
+builder.Services.AddScoped<ISupportTeamMemberService,SupportTeamMemberService>();
+builder.Services.AddScoped<IRaceRegistrationService, RaceRegistrationService>();
 builder.Services.AddScoped<ISupportTeamService, SupportTeamService>();
 
 // =====================================

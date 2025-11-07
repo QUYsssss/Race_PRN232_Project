@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Race_PRN232_Project.DTOs;
+using Race_PRN232_Project.DTOs.SupportTeamDTO;
 using Race_PRN232_Project.Models;
 using Race_PRN232_Project.Services.Interfaces;
 
@@ -8,49 +10,86 @@ namespace Race_PRN232_Project.Services.Implementations
     public class SupportTeamService : ISupportTeamService
     {
         private readonly RacePRN232Context _context;
-        private readonly IMapper _mapper;
 
-        public SupportTeamService(RacePRN232Context context, IMapper mapper)
+        public SupportTeamService(RacePRN232Context context)
         {
             _context = context;
-            _mapper = mapper;
         }
 
         public IEnumerable<SupportTeamDTO> GetAll()
         {
-            var data = from t in _context.SupportTeams
-                       join r in _context.Races on t.RaceId equals r.RaceId
-                       select new SupportTeamDTO
-                       {
-                           SupportTeamId = t.SupportTeamId,
-                           TeamName = t.TeamName,
-                           RaceName = r.RaceName,
-                           ContactPhone = t.ContactPhone
-                       };
-            return data.ToList();
+            return _context.SupportTeams
+                .Include(t => t.Leader)
+                .Select(t => new SupportTeamDTO
+                {
+                    SupportTeamId = t.SupportTeamId,
+                    TeamName = t.TeamName,
+                    RaceId = t.RaceId,
+                    LeaderId = t.LeaderId,
+                    LeaderName = t.Leader != null ? $"{t.Leader.FirstName} {t.Leader.LastName}" : null,
+                    ContactPhone = t.ContactPhone
+                })
+                .ToList();
         }
 
-        public bool AddMember(int teamId, int userId, string role)
+        public SupportTeamDTO? GetById(int id)
         {
-            if (_context.SupportTeamMembers.Any(x => x.SupportTeamId == teamId && x.UserId == userId))
-                return false;
+            var team = _context.SupportTeams
+                .Include(t => t.Leader)
+                .FirstOrDefault(t => t.SupportTeamId == id);
 
-            _context.SupportTeamMembers.Add(new SupportTeamMember
+            if (team == null) return null;
+
+            return new SupportTeamDTO
             {
-                SupportTeamId = teamId,
-                UserId = userId,
-                RoleInTeam = role
-            });
+                SupportTeamId = team.SupportTeamId,
+                TeamName = team.TeamName,
+                RaceId = team.RaceId,
+                LeaderId = team.LeaderId,
+                LeaderName = team.Leader != null ? $"{team.Leader.FirstName} {team.Leader.LastName}" : null,
+                ContactPhone = team.ContactPhone
+            };
+        }
+
+        public SupportTeamDTO Create(CreateSupportTeamDTO dto)
+        {
+            var team = new SupportTeam
+            {
+                TeamName = dto.TeamName,
+                RaceId = dto.RaceId,
+                LeaderId = dto.LeaderId,
+                ContactPhone = dto.ContactPhone
+            };
+            _context.SupportTeams.Add(team);
+            _context.SaveChanges();
+
+            return GetById(team.SupportTeamId)!;
+        }
+
+        public bool Update(int id, UpdateSupportTeamDTO dto)
+        {
+            var team = _context.SupportTeams.Find(id);
+            if (team == null) return false;
+
+            team.TeamName = dto.TeamName;
+            team.LeaderId = dto.LeaderId;
+            team.ContactPhone = dto.ContactPhone;
             _context.SaveChanges();
             return true;
         }
 
-        public bool RemoveMember(int teamId, int userId)
+        public bool Delete(int id)
         {
-            var member = _context.SupportTeamMembers
-                .FirstOrDefault(x => x.SupportTeamId == teamId && x.UserId == userId);
-            if (member == null) return false;
-            _context.SupportTeamMembers.Remove(member);
+            var team = _context.SupportTeams
+                .Include(t => t.SupportTeamMembers)
+                .FirstOrDefault(t => t.SupportTeamId == id);
+
+            if (team == null) return false;
+
+            if (team.SupportTeamMembers.Any())
+                throw new InvalidOperationException("Không thể xóa vì đội hỗ trợ này vẫn còn thành viên.");
+
+            _context.SupportTeams.Remove(team);
             _context.SaveChanges();
             return true;
         }

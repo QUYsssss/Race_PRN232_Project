@@ -1,70 +1,138 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\",
+  "WorkspaceRootPath": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E20BAF0-F079-480F-A8B8-9E233BAA7808}|Race_PRN232_FE\\Race_PRN232_FE.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_fe\\pages\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E20BAF0-F079-480F-A8B8-9E233BAA7808}|Race_PRN232_FE\\Race_PRN232_FE.csproj|solutionrelative:race_prn232_fe\\pages\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E20BAF0-F079-480F-A8B8-9E233BAA7808}|Race_PRN232_FE\\Race_PRN232_FE.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_fe\\pages\\manager\\usersmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E20BAF0-F079-480F-A8B8-9E233BAA7808}|Race_PRN232_FE\\Race_PRN232_FE.csproj|solutionrelative:race_prn232_fe\\pages\\manager\\usersmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E20BAF0-F079-480F-A8B8-9E233BAA7808}|Race_PRN232_FE\\Race_PRN232_FE.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_fe\\pages\\manager\\racemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E20BAF0-F079-480F-A8B8-9E233BAA7808}|Race_PRN232_FE\\Race_PRN232_FE.csproj|solutionrelative:race_prn232_fe\\pages\\manager\\racemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E20BAF0-F079-480F-A8B8-9E233BAA7808}|Race_PRN232_FE\\Race_PRN232_FE.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_fe\\pages\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E20BAF0-F079-480F-A8B8-9E233BAA7808}|Race_PRN232_FE\\Race_PRN232_FE.csproj|solutionrelative:race_prn232_fe\\pages\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\services\\implementations\\raceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\services\\implementations\\raceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E20BAF0-F079-480F-A8B8-9E233BAA7808}|Race_PRN232_FE\\Race_PRN232_FE.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_fe\\pages\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E20BAF0-F079-480F-A8B8-9E233BAA7808}|Race_PRN232_FE\\Race_PRN232_FE.csproj|solutionrelative:race_prn232_fe\\pages\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E20BAF0-F079-480F-A8B8-9E233BAA7808}|Race_PRN232_FE\\Race_PRN232_FE.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_fe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E20BAF0-F079-480F-A8B8-9E233BAA7808}|Race_PRN232_FE\\Race_PRN232_FE.csproj|solutionrelative:race_prn232_fe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\controllers\\racescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\dtos\\roledto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\roledto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\dtos\\supportteamdto\\supportteamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\supportteamdto\\supportteamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\dtos\\racecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\racecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\dtos\\racedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\racedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\dtos\\raceregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\raceregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\dtos\\supportteammemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\supportteammemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\controllers\\racescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\controllers\\racescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\controllers\\raceregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\controllers\\raceregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\services\\interfaces\\iraceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\services\\interfaces\\iraceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\controllers\\supportteamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\controllers\\supportteamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\demo\\race_prn232_project\\race_prn232_project\\dtos\\racecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\dtos\\racecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\services\\implementations\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\services\\implementations\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\services\\implementations\\raceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\services\\implementations\\raceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\services\\implementations\\raceregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\services\\implementations\\raceregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\models\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\models\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\models\\raceprn232context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\models\\raceprn232context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\models\\raceparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\models\\raceparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\services\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\services\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|d:\\ky8\\prn232\\project\\race_prn232_project\\race_prn232_project\\race_prn232_project\\migrations\\20251107152950_dbver2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3C42F1-D1A2-4B89-9D0D-88FAC415466C}|Race_PRN232_Project\\Race_PRN232_Project.csproj|solutionrelative:race_prn232_project\\migrations\\20251107152950_dbver2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,219 +142,429 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Helpers\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\Helpers\\MappingProfile.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Helpers\\MappingProfile.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\Helpers\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T09:41:37.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JwtHelper.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Helpers\\JwtHelper.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\Helpers\\JwtHelper.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Helpers\\JwtHelper.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\Helpers\\JwtHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T09:41:26.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\RegisterDTO.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RegisterDTO.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\RegisterDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T09:41:13.663Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Implementations\\AuthService.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\Services\\Implementations\\AuthService.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Implementations\\AuthService.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\Services\\Implementations\\AuthService.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAEUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T09:16:26.141Z",
+              "Title": "RaceManagement.cshtml",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_FE\\Pages\\Manager\\RaceManagement.cshtml",
+              "RelativeDocumentMoniker": "Race_PRN232_FE\\Pages\\Manager\\RaceManagement.cshtml",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_FE\\Pages\\Manager\\RaceManagement.cshtml",
+              "RelativeToolTip": "Race_PRN232_FE\\Pages\\Manager\\RaceManagement.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T16:36:56.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\Services\\Interfaces\\IAuthService.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\Services\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T09:16:37.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RaceService.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Implementations\\RaceService.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\Services\\Implementations\\RaceService.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Implementations\\RaceService.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\Services\\Implementations\\RaceService.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T07:58:09.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TokenResponseDTO.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\TokenResponseDTO.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\TokenResponseDTO.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\TokenResponseDTO.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\TokenResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T09:15:57.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\RegisterController.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\Controllers\\RegisterController.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\RegisterController.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\Controllers\\RegisterController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T09:40:58.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Program.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\Program.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Program.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T08:00:53.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginRequestDTO.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\LoginRequestDTO.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\LoginRequestDTO.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\LoginRequestDTO.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\LoginRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T07:50:39.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RacesController.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\RacesController.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\Controllers\\RacesController.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\RacesController.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\Controllers\\RacesController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwD4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T07:58:32.622Z",
+              "Title": "UsersManagement.cshtml",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_FE\\Pages\\Manager\\UsersManagement.cshtml",
+              "RelativeDocumentMoniker": "Race_PRN232_FE\\Pages\\Manager\\UsersManagement.cshtml",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_FE\\Pages\\Manager\\UsersManagement.cshtml",
+              "RelativeToolTip": "Race_PRN232_FE\\Pages\\Manager\\UsersManagement.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T16:35:48.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwB8AAAAAAAAAAAAAAA==",
+              "Title": "SupportTeamDTO.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\SupportTeamDTO\\SupportTeamDTO.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\SupportTeamDTO\\SupportTeamDTO.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\SupportTeamDTO\\SupportTeamDTO.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\SupportTeamDTO\\SupportTeamDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T07:50:43.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IRaceService.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Interfaces\\IRaceService.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\Services\\Interfaces\\IRaceService.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Interfaces\\IRaceService.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\Services\\Interfaces\\IRaceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T07:59:51.617Z",
+              "WhenOpened": "2025-11-07T16:02:49.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\appsettings.json",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\appsettings.json",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\appsettings.json",
-              "RelativeToolTip": "Race_PRN232_Project\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-07T08:01:17.295Z",
+              "Title": "RaceRegistrationDto.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RaceRegistrationDto.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\RaceRegistrationDto.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RaceRegistrationDto.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\RaceRegistrationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:02:42.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Race_PRN232_Project\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwCUAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-07T08:11:26.702Z",
+              "DocumentIndex": 0,
+              "Title": "DashBoard.cshtml",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_FE\\Pages\\DashBoard.cshtml",
+              "RelativeDocumentMoniker": "Race_PRN232_FE\\Pages\\DashBoard.cshtml",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_FE\\Pages\\DashBoard.cshtml",
+              "RelativeToolTip": "Race_PRN232_FE\\Pages\\DashBoard.cshtml",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAAABABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T16:13:44.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:03:05.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RaceDTO.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RaceDTO.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\RaceDTO.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RaceDTO.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\RaceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:41:30.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_FE\\Pages\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Race_PRN232_FE\\Pages\\Auth\\Login.cshtml",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_FE\\Pages\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Race_PRN232_FE\\Pages\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T15:40:51.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_FE\\Pages\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Race_PRN232_FE\\Pages\\Auth\\Register.cshtml",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_FE\\Pages\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Race_PRN232_FE\\Pages\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAAALoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T16:09:19.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_FE\\Program.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_FE\\Program.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_FE\\Program.cs",
+              "RelativeToolTip": "Race_PRN232_FE\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:07:12.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Controllers\\RegisterController.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwCMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:42:04.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "RaceCreateDTO.cs",
-              "DocumentMoniker": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RaceCreateDTO.cs",
-              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\RaceCreateDTO.cs",
-              "ToolTip": "D:\\Ky8\\PRN232\\Demo\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RaceCreateDTO.cs",
-              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\RaceCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Title": "SupportTeamMemberDTO.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\SupportTeamMemberDTO.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\SupportTeamMemberDTO.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\SupportTeamMemberDTO.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\SupportTeamMemberDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T07:57:39.313Z",
+              "WhenOpened": "2025-11-07T16:02:40.838Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RaceCreateDTO.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RaceCreateDTO.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\RaceCreateDTO.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RaceCreateDTO.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\RaceCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:35:47.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoleDTO.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RoleDTO\\RoleDTO.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\RoleDTO\\RoleDTO.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RoleDTO\\RoleDTO.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\RoleDTO\\RoleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:17:42.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\LoginRequestDTO.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\LoginRequestDTO.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\LoginRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:35:44.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TokenResponseDTO.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\TokenResponseDTO.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\TokenResponseDTO.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\TokenResponseDTO.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\TokenResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:02:39.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:02:38.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RacesController.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\RacesController.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Controllers\\RacesController.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\RacesController.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Controllers\\RacesController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:41:06.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:57:55.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RaceRegistrationController.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\RaceRegistrationController.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Controllers\\RaceRegistrationController.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\RaceRegistrationController.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Controllers\\RaceRegistrationController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:19:21.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SupportTeamController.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\SupportTeamController.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Controllers\\SupportTeamController.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\SupportTeamController.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Controllers\\SupportTeamController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:52:05.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RaceService.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Implementations\\RaceService.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Services\\Implementations\\RaceService.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Implementations\\RaceService.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Services\\Implementations\\RaceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:01:33.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Implementations\\RoleService.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Services\\Implementations\\RoleService.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Implementations\\RoleService.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Services\\Implementations\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:17:48.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:18:00.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Program.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Program.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Program.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:26:25.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\appsettings.json",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\appsettings.json",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\appsettings.json",
+              "RelativeToolTip": "Race_PRN232_Project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-07T15:27:13.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20251107152950_DBver2.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Migrations\\20251107152950_DBver2.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Migrations\\20251107152950_DBver2.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Migrations\\20251107152950_DBver2.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Migrations\\20251107152950_DBver2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:29:50.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RacePRN232Context.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Models\\RacePRN232Context.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Models\\RacePRN232Context.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Models\\RacePRN232Context.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Models\\RacePRN232Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:38:12.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Image.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Models\\Image.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Models\\Image.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Models\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:38:09.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Interfaces\\IRoleService.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Services\\Interfaces\\IRoleService.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Interfaces\\IRoleService.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Services\\Interfaces\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:36:24.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RaceParticipant.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Models\\RaceParticipant.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Models\\RaceParticipant.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Models\\RaceParticipant.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Models\\RaceParticipant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:36:00.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Race.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Models\\Race.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Models\\Race.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Models\\Race.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Models\\Race.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:35:58.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RaceRegistrationService.cs",
+              "DocumentMoniker": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Implementations\\RaceRegistrationService.cs",
+              "RelativeDocumentMoniker": "Race_PRN232_Project\\Services\\Implementations\\RaceRegistrationService.cs",
+              "ToolTip": "D:\\Ky8\\PRN232\\Project\\Race_PRN232_Project\\Race_PRN232_Project\\Race_PRN232_Project\\Services\\Implementations\\RaceRegistrationService.cs",
+              "RelativeToolTip": "Race_PRN232_Project\\Services\\Implementations\\RaceRegistrationService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:31:24Z"
             }
           ]
         }

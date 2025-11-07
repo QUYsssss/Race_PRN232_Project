@@ -1,0 +1,187 @@
+﻿@page
+@model dynamic
+@{
+    ViewData["Title"] = "Đăng ký tài khoản RacePRN232";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<style>
+    body {
+        background: linear-gradient(135deg, #f3f5fa 0%, #eef1ff 100%);
+        font-family: 'Inter', sans-serif;
+    }
+
+    .register-card {
+        max-width: 450px;
+        margin: 70px auto;
+        padding: 40px;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 8px 28px rgba(0,0,0,.08);
+        animation: fadeIn .4s ease;
+    }
+
+    h3 {
+        font-weight: 700;
+        color: #3b5bdb;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .form-control {
+        border-radius: 10px;
+        padding: 12px;
+    }
+
+    .btn-primary {
+        background: #3b5bdb;
+        border-radius: 10px;
+        padding: 12px;
+        font-weight: 600;
+        border: none;
+        transition: background .2s ease;
+    }
+
+        .btn-primary:hover {
+            background: #364fc7;
+        }
+
+    .text-link {
+        color: #3b5bdb;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+        .text-link:hover {
+            text-decoration: underline;
+            color: #2b4ac8;
+        }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+<div class="register-card">
+    <h3><i class="bi bi-person-plus-fill me-1"></i> Đăng ký tài khoản</h3>
+
+    <form id="registerForm">
+
+        <div class="mb-3">
+            <label class="form-label">Họ</label>
+            <input id="firstName" class="form-control" placeholder="Nhập họ..." required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tên</label>
+            <input id="lastName" class="form-control" placeholder="Nhập tên..." required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                <input id="email" type="email" class="form-control" placeholder="Nhập email..." required />
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Mật khẩu</label>
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                <input id="password" type="password" class="form-control" placeholder="Nhập mật khẩu..." required />
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Xác nhận mật khẩu</label>
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-shield-lock"></i></span>
+                <input id="confirmPassword" type="password" class="form-control" placeholder="Nhập lại mật khẩu..." required />
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Số điện thoại (không bắt buộc)</label>
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-telephone"></i></span>
+                <input id="phone" class="form-control" placeholder="Nhập số điện thoại..." />
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100 mt-2">Đăng ký</button>
+
+    </form>
+
+    <p id="message" class="text-center mt-3"></p>
+
+    <p class="text-center mt-2">
+        Đã có tài khoản?
+        <a href="/Auth/Login" class="text-link">Đăng nhập</a>
+    </p>
+</div>
+
+<script>
+    document.getElementById("registerForm").addEventListener("submit", async e => {
+        e.preventDefault();
+
+        const firstName = document.getElementById("firstName").value.trim();
+        const lastName = document.getElementById("lastName").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const password = document.getElementById("password").value.trim();
+        const confirmPassword = document.getElementById("confirmPassword").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+        const msg = document.getElementById("message");
+
+        msg.innerText = "⏳ Đang xử lý...";
+        msg.style.color = "#6c757d";
+
+        if (password !== confirmPassword) {
+            msg.style.color = "red";
+            msg.innerText = "❌ Mật khẩu xác nhận không khớp!";
+            return;
+        }
+
+        try {
+            // ✅ Đúng endpoint backend đang dùng
+            const res = await fetch("http://localhost:5288/api/Register/customer", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    firstName,
+                    lastName,
+                    email,
+                    password,
+                    confirmPassword
+                })
+            });
+
+            const data = await res.json().catch(() => ({}));
+
+            if (res.ok) {
+                msg.style.color = "green";
+                msg.innerText = "✅ Đăng ký thành công!";
+                setTimeout(() => window.location.href = "/Auth/Login", 1200);
+            } else {
+                msg.style.color = "red";
+                msg.innerText = data.message || "❌ Đăng ký thất bại!";
+            }
+        } catch (err) {
+            console.error(err);
+            msg.style.color = "red";
+            msg.innerText = "⚠️ Lỗi kết nối đến server (http://localhost:5288)!";
+        }
+    });
+</script>
+
