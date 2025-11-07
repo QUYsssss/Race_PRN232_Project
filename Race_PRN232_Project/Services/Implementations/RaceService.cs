@@ -53,5 +53,52 @@ namespace Race_PRN232_Project.Services.Implementations
             _context.SaveChanges();
             return true;
         }
+
+        public bool CreateRace(RaceCreateDTO dto)
+        {
+            // 1️⃣ Tạo đối tượng Race
+            var race = new Race
+            {
+                RaceName = dto.RaceName,
+                StartDate = dto.StartDate,
+                EndDate = dto.EndDate,
+                LocationId = dto.LocationId,
+                Description = dto.Description
+            };
+            _context.Races.Add(race);
+            _context.SaveChanges();
+
+            // 2️⃣ Thêm các RaceDistance (nếu có)
+            if (dto.Distances != null)
+            {
+                foreach (var d in dto.Distances)
+                {
+                    _context.RaceDistances.Add(new RaceDistance
+                    {
+                        RaceId = race.RaceId,
+                        DistanceKm = d.DistanceKm,
+                        CutoffTimeHours = d.CutoffTimeHours
+                    });
+                }
+            }
+
+            // 3️⃣ Thêm hình ảnh (nếu có)
+            if (dto.Images != null)
+            {
+                foreach (var img in dto.Images)
+                {
+                    _context.Images.Add(new Image
+                    {
+                        RaceId = race.RaceId,
+                        Url = img.Url,
+                        Caption = img.Caption
+                    });
+                }
+            }
+
+            _context.SaveChanges();
+            return true;
+        }
+
     }
 }

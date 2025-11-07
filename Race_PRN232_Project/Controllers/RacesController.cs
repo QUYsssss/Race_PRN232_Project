@@ -58,5 +58,17 @@ namespace Race_PRN232_Project.Controllers
             var ok = _raceService.Delete(id);
             return ok ? Ok("Xóa thành công.") : NotFound();
         }
+
+        [HttpPost("create")]
+        [Authorize(Roles = "Admin")]
+        public IActionResult CreateRace([FromBody] RaceCreateDTO dto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var ok = _raceService.CreateRace(dto);
+            return ok ? Ok("Tạo giải chạy mới thành công!") : BadRequest("Không thể tạo giải.");
+        }
+
     }
 }

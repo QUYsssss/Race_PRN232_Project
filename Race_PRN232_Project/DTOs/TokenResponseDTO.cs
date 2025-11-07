@@ -2,8 +2,8 @@
 {
     public class TokenResponseDTO
     {
-        public string AccessToken { get; set; } = "";
-        public string RefreshToken { get; set; } = "";
-        public DateTime ExpiredAt { get; set; }
+        public string Token { get; set; } = "";
+        public DateTime ExpireAt { get; set; }
+        public UserDTO User { get; set; } = new UserDTO();
     }
 }
